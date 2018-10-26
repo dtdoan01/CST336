@@ -92,3 +92,8 @@ p{
     color:green;
     font-size: 1.3em;
 }
+
+hr {
+	width: 50%;
+	margin: 1% auto;
+}
