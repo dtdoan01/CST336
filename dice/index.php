@@ -48,10 +48,10 @@
                 include 'inc/functions.php';
 
                 play();
-                echo "<h2>Human Score history: $demo</h2>";
-                echo "<h3>Human win: $humanWin</h3>";
-                echo "<h2>Al Score history: $arrComp</h2>";
-                echo "<h3>Al win: $computerWin</h3>";
+                echo "<h2>Your Score history: $demo</h2>";
+                echo "<h3>You won: $humanWin</h3>";
+                echo "<h2>Computer Score history: $arrComp</h2>";
+                echo "<h3>Computer won: $computerWin</h3>";
             ?>
 
             <form action="" method="post">
