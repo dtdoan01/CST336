@@ -21,6 +21,7 @@
 
             if($humanSum > $compSum){
                 echo "Congratulations. You have won! Scored $humanSum to $compSum";
+                echo( "<embed name='slot_machine_beep_buzz' src='sound/Ta_Da.wav' loop='true' hidden='true' autostart='true'/>");
                 $_SESSION['humanWin']++;
             }else if($compSum > $humanSum){
                 echo "Sorry! The computer won. Scored $compSum to $humanSum" ;
