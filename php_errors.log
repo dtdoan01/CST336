@@ -313,3 +313,4 @@
 [03-Nov-2018 21:47:35 UTC] PHP Parse error:  syntax error, unexpected '$arrComp' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/CST336/Dice/inc/functions.php on line 16
 [03-Nov-2018 21:47:35 UTC] PHP Stack trace:
 [03-Nov-2018 21:47:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Dice/index.php:0
+[06-Nov-2018 09:40:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/Slider/index.php on line 79
