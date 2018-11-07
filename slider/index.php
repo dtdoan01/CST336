@@ -1,8 +1,10 @@
-<?php $backgroundImage = "img/sea.jpg";
+<?php 
+    $backgroundImage = "img/sea.jpg";
     if (isset($_GET['keyword'])) {
         //echo "You searched for: " . $_GET['keyword'];
         include 'api/pixabayAPI.php';
-        $imageURLs = getImageURLs($_GET['keyword']);
+        $keyword = $_GET['keyword'];
+        $imageURLs = getImageURLs($keyword);
         //print_r($imageURLs);
         $backgroundImage = $imageURLs[array_rand($imageURLs)];
     }
@@ -12,11 +14,12 @@
     <head>
         <title> Image Carousel </title>
         <meta charset="utf-8" />
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!--link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
         <style>
             @import url("css/styles.css");
             body {
-                background-image: url('<?-$backgroundImage ?>');
+                background-image: url('<?=$backgroundImage ?>');
             }
         </style>
 
@@ -43,7 +46,7 @@
         ?>
         <!-- HTML form goes here -->
         <div id="carousel-example-generic" class="carousel slide" data-ride = "carousel">
-            <ol class = "carousel-indcators">
+            <ol class = "carousel-indicators">
                 <?php 
                     for ($i = 0; $i < 7; $i++) {
                         echo "<li data-target = '#carousel-example-generic' data-slide-to='$i'";
@@ -99,6 +102,7 @@
         </form>
         <br/><br/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script-->
     </body>
 </html>
