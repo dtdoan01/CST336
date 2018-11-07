@@ -314,3 +314,6 @@
 [03-Nov-2018 21:47:35 UTC] PHP Stack trace:
 [03-Nov-2018 21:47:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Dice/index.php:0
 [06-Nov-2018 09:40:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/CST336/Slider/index.php on line 79
+[07-Nov-2018 06:21:21 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/CST336/Slider/index.php on line 59
+[07-Nov-2018 06:21:21 UTC] PHP Stack trace:
+[07-Nov-2018 06:21:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Slider/index.php:0
