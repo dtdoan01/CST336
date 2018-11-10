@@ -317,3 +317,9 @@
 [07-Nov-2018 06:21:21 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/CST336/Slider/index.php on line 59
 [07-Nov-2018 06:21:21 UTC] PHP Stack trace:
 [07-Nov-2018 06:21:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/Slider/index.php:0
+[10-Nov-2018 05:26:32 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/CST336/scart/functions.php on line 24
+[10-Nov-2018 05:26:33 UTC] PHP Stack trace:
+[10-Nov-2018 05:26:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/scart/index.php:0
+[10-Nov-2018 06:50:26 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/CST336/scart/functions.php on line 29
+[10-Nov-2018 06:50:26 UTC] PHP Stack trace:
+[10-Nov-2018 06:50:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/scart/index.php:0
