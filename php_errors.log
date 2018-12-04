@@ -606,3 +606,33 @@ Stack trace:
 #1 /home/ubuntu/workspace/CST336/omadmin/index.php(4): getDatabaseConnection('heroku_6d407455...')
 #2 {main}
   thrown in /home/ubuntu/workspace/CST336/omadmin/dbConnection.php on line 19
+[27-Nov-2018 06:34:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[27-Nov-2018 06:37:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[27-Nov-2018 06:39:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[27-Nov-2018 06:45:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[27-Nov-2018 07:14:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[27-Nov-2018 07:16:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'score' cannot be null' in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
