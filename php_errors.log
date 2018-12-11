@@ -636,3 +636,11 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php(14): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336/csumb_quiz/submitScores.php on line 14
+[11-Dec-2018 05:07:15 UTC] PHP Warning:  require(/home/ubuntu/workspace/CST336/final/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336/final/public/index.php on line 24
+[11-Dec-2018 05:07:15 UTC] PHP Stack trace:
+[11-Dec-2018 05:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/server.php:0
+[11-Dec-2018 05:07:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/CST336/final/server.php:21
+[11-Dec-2018 05:07:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/CST336/final/public/../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336/final/public/index.php on line 24
+[11-Dec-2018 05:07:15 UTC] PHP Stack trace:
+[11-Dec-2018 05:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/final/server.php:0
+[11-Dec-2018 05:07:15 UTC] PHP   2. require_once() /home/ubuntu/workspace/CST336/final/server.php:21
