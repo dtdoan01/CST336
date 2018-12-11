@@ -1,0 +1,5 @@
+deploy:
+    type: deploy
+    script:
+    - git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/cst336-8bit-final.git
+    - git push -f heroku master

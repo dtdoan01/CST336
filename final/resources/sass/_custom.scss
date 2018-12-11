@@ -1,0 +1,120 @@
+//@import "variables";
+
+.navbar-brand {
+    color: $body-color !important;
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.game-result:hover {
+    background-color: $primary !important;
+}
+
+// Custom Carousel for game gallery images
+.carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: left;
+    white-space: nowrap;
+    width: 100%;
+
+    display: block;
+}
+
+.carousel-custom .carousel-indicators li {
+    position: inherit;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+
+.carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+
+.carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+
+.carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+
+.game-listing .media-body .row {
+    min-height: 59px;
+}
+
+.custom-checkbox-icon {
+    .custom-control-input:checked ~ .custom-control-label {
+        color: $info;
+
+        &::after {
+            background-image: none;
+            content: none;
+        }
+    }
+
+    .custom-control-label {
+        font-size: 1.4em;
+        color: $text-muted;
+        transition: all 0.5s;
+    }
+
+    &:hover .custom-control-label {
+        color: $primary;
+    }
+
+    .custom-control-label::before {
+        content: none;
+        background-color: transparent;
+    }
+}
+
+.gallery-container, .carousel-item-container {
+    position: relative;
+}
+
+.gallery-container {
+    transition: ease all 1s;
+
+    &:hover {
+        z-index: 9999;
+        transform: scale(1.05);
+    }
+}
+
+.gallery-container .caption, .carousel-item-container .caption {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    padding: 2px 4px;
+    background-color: $success;
+
+    border-radius: 4px 0 0 0;
+}
+
+.sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 88px;
+    height: calc(100vh - 88px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.nav-sidebar {
+    font-weight: 600;
+    //top: 88px;
+    //height: calc(100vh - 88px);
+}
